@@ -3,41 +3,100 @@
 <head>
 	<title>Look at my cats</title>
 <style>
+* {
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
 	body  {
-   	 background-image: url("https://66.media.tumblr.com/288a715f2c990f85bbdbc560a1756a4a/tumblr_pfne8ywmcf1r102zho1_540.gif");
+   	 background-image: url("img/background.gif");
    	 background-color: #cccccc;
 	}
+	.top-left {
+    position: relative;
+    font-size: 30px;	
+    top: -384px;
+    left: 250px;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 *//*
+@-webkit-keyframes example {
+    0%   {background-color:red;}
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    75%  {background-color:green; }
+    100% {background-color:red; }
+}
+*/
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color:DeepPink;}
+    25%  {color:yellow; }
+    50%  {color:LawnGreen; }
+    75%  {color:DeepSkyBlue;}
+    100% {color:DeepPink; }
+}
 </style>
 </head>
 <body>
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://66.media.tumblr.com/8f6602cba6274ebe6922df9f57e8bb4b/tumblr_pfne1etv6o1r102zho1_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/383eae14a8ad135a8d2708d4a1f7dcc3/tumblr_pfne1etv6o1r102zho2_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/7b031f5cc94be5cea80b333d04008419/tumblr_pfne1etv6o1r102zho3_1280.jpg"  height="384" width="576"></td>
+    <td ><img src="https://66.media.tumblr.com/8f6602cba6274ebe6922df9f57e8bb4b/tumblr_pfne1etv6o1r102zho1_1280.jpg"  height="384" width="576">
+    <div class="top-left" >CHARLIE</div></td>
+    <td><img src="https://66.media.tumblr.com/383eae14a8ad135a8d2708d4a1f7dcc3/tumblr_pfne1etv6o1r102zho2_1280.jpg"  height="384" width="576">
+    	<div class="top-left" >MOLLY</div></td>
+    <td><img src="https://66.media.tumblr.com/7b031f5cc94be5cea80b333d04008419/tumblr_pfne1etv6o1r102zho3_1280.jpg"  height="384" width="576">
+    <div class="top-left" >CHARLIE</div></td></td>
   </tr>
   <tr>
-    <td><img src="https://66.media.tumblr.com/743dfbe25d1b5805cac42bf093271ec8/tumblr_pfne1etv6o1r102zho4_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/b1e96bdb8ac786c11e155f7ae3ef346f/tumblr_pfne1etv6o1r102zho5_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/3e68ca15573f7a362e20a956db8712e7/tumblr_pfne1etv6o1r102zho6_1280.jpg"  height="384" width="576"></td>
+    <td><img src="https://66.media.tumblr.com/743dfbe25d1b5805cac42bf093271ec8/tumblr_pfne1etv6o1r102zho4_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
+    <td><img src="https://66.media.tumblr.com/b1e96bdb8ac786c11e155f7ae3ef346f/tumblr_pfne1etv6o1r102zho5_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
+    <td><img src="https://66.media.tumblr.com/3e68ca15573f7a362e20a956db8712e7/tumblr_pfne1etv6o1r102zho6_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
   </tr>
   <tr>
-    <td><img src="https://66.media.tumblr.com/558aaa8f7b03881833990ba636938458/tumblr_pfne1etv6o1r102zho7_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/10cd4b83f7fafe80e037916621bd970b/tumblr_pfne1etv6o1r102zho8_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/b26b84f68ff3495e58087d8feca4a36e/tumblr_pfne1etv6o1r102zho9_1280.jpg"  height="384" width="576"></td>
+    <td><img src="https://66.media.tumblr.com/558aaa8f7b03881833990ba636938458/tumblr_pfne1etv6o1r102zho7_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
+    <td><img src="https://66.media.tumblr.com/10cd4b83f7fafe80e037916621bd970b/tumblr_pfne1etv6o1r102zho8_1280.jpg"  height="384" width="576">
+    <div class="top-left" >CHARLIE</div></td>
+    <td><img src="https://66.media.tumblr.com/b26b84f68ff3495e58087d8feca4a36e/tumblr_pfne1etv6o1r102zho9_1280.jpg"  height="384" width="576">
+    <div class="top-left" >CHARLIE</div></td>
   </tr>
     <tr>
-    <td><img src="https://66.media.tumblr.com/6c0e7c1d5c62dadb9d27302a576ed329/tumblr_pfne1etv6o1r102zho10_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/20cb7ede2ce9901ba2d954a99429f0a4/tumblr_inline_pfndypDEgF1qk94je_1280.jpg"  height="384" width="576"></td>
-    <td><img src="https://66.media.tumblr.com/383eae14a8ad135a8d2708d4a1f7dcc3/tumblr_inline_pfndzfeFHP1qk94je_1280.jpg"  height="384" width="576"></td>
+    <td><img src="https://66.media.tumblr.com/6c0e7c1d5c62dadb9d27302a576ed329/tumblr_pfne1etv6o1r102zho10_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
+    <td><img src="https://66.media.tumblr.com/20cb7ede2ce9901ba2d954a99429f0a4/tumblr_inline_pfndypDEgF1qk94je_1280.jpg"  height="384" width="576">
+    <div class="top-left" >CHARLIE</div></td>
+    <td><img src="https://66.media.tumblr.com/383eae14a8ad135a8d2708d4a1f7dcc3/tumblr_inline_pfndzfeFHP1qk94je_1280.jpg"  height="384" width="576">
+    <div class="top-left" >MOLLY</div></td>
   </tr>
 </table>
+
 <script>
-myFunction();
+	myFunction();
 function myFunction() {
     alert("Look at all me cats");
 }
 </script>
+</body>
+
+<body>
+<b>
 </body>
 </html>
